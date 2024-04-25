@@ -11,7 +11,7 @@ import {
   Accordion,
   Card,
 } from "semantic-ui-react";
-import { fetchMovies } from "../home/query";
+// import { fetchMovies } from "../home/query";
 import { fetchTvShowDetails } from "./query";
 
 export const TvShow = () => {
