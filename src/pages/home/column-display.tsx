@@ -59,7 +59,7 @@ export const ColumnDisplay = (props: Props) => {
       verticalAlign="top"
       padded="vertically"
     >
-      {data.map((displayData: DisplayData) => (
+      {data?.map((displayData: DisplayData) => (
         <Grid.Column key={displayData.id}>
           <Card.Group>
             <Link
